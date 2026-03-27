@@ -13,7 +13,7 @@ public class HomeController {
     //http://localhost:8080/public
     @GetMapping("/public")
     public String Home() {
-        return "Hello Home!";
+        return "Hello Home! I am here.";
     }
 
     //http://localhost:8080/secured
